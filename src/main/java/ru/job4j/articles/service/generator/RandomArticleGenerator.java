@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class RandomArticleGenerator implements ArticleGenerator {
+
     @Override
     public Article generate(List<Word> words) {
         var wordsCopy = new ArrayList<>(words);

@@ -6,5 +6,6 @@ import ru.job4j.articles.model.Word;
 import java.util.List;
 
 public interface ArticleGenerator {
+
     Article generate(List<Word> words);
 }
